@@ -11,9 +11,8 @@ First of all clone the git repository by using this command
 ## .env file
 Then go to the .env file and include your spotify client id.
 ## Installing Dependencies
-Install dependencies by using 
+In the project directory run the below command to install dependencies  
 ## yarn install (make sure yarn and Node js are available and installed on your device)
-In the project directory you can run:
 ## Running project
 Finally run the local development server by using the command 
 ## yarn start
