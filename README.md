@@ -1,8 +1,19 @@
-# React + Vite
+# React + Vite Spotify Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a React application built with Vite, designed to interact with the Spotify API. It allows users to authenticate with Spotify and access various functionalities related to their Spotify account.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Available Scripts
+## Cloning project
+First of all clone the git repository by using this command
+## git clone https://github.com/ihabawad18/Spotify-Project.git
+## .env file
+Then go to the .env file and include your spotify client id.
+## Installing Dependencies
+Install dependencies by using 
+## yarn install (make sure yarn and Node js are available and installed on your device)
+In the project directory you can run:
+## Running project
+Finally run the local development server by using the command 
+## yarn start
