@@ -4,7 +4,6 @@
 
 This project is a React application built with Vite, designed to interact with the Spotify API. It allows users to authenticate with Spotify and access various functionalities related to their Spotify account.
 
-## Available Scripts
 ## Cloning project
 First of all clone the git repository by using this command
 ## git clone https://github.com/ihabawad18/Spotify-Project.git
