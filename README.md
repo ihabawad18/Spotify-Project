@@ -13,5 +13,5 @@ Then go to the .env file and include your spotify client id.
 In the project directory run the below command to install dependencies  
 ### yarn install (make sure yarn and Node js are available and installed on your device)
 ## Running project
-Finally run the local development server by using the command 
+Finally run the local development server which will run on port 5173 by using the command 
 ### yarn start
