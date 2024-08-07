@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #000;
+  color: #fff;
+  min-height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  @media screen and (max-width: 550px) {
+    padding: 0 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      width: 50px;
+    }
+    h1 {
+      font-size: 1.5rem;
+      @media screen and (max-width: 400px) {
+        font-size: 1rem;
+      }
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .loginLink {
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+  }
+}

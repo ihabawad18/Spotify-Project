@@ -1,0 +1,56 @@
+.ArtistsWrapper {
+  padding: 40px;
+  .ArtistsTitle {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  .ArtistsDescription {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .ArtistsSearchWrapper {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .ArtistsSearch {
+      // height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.6rem;
+      margin: 2rem 0 2rem 0;
+      input {
+        min-width: 350px;
+        padding: 1rem 0.5rem;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+    .ArtistsContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .DisplayArtists {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+      .ArtistsDescription {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.5;
+        max-width: 550px;
+        text-align: center;
+      }
+    }
+  }
+}
